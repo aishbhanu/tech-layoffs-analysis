@@ -119,6 +119,28 @@ underlying dataset changes.
 
 ---
 
+## Sample output
+
+Two of the nine charts, committed here so they're visible without cloning
+the repo:
+
+**06 — The funding paradox:** companies that raised the most funding vs.
+the size of their layoffs. Log-scale axes and auto-placed labels keep every
+company readable even where points cluster.
+
+![Funding paradox chart](output/charts/06_funding_paradox.png)
+
+**09 — Serial layoffs:** the top 10 companies ranked by *number of separate
+layoff events*, not total headcount — surfaces repeat/rolling layoffs that a
+headcount chart alone can't show.
+
+![Serial layoffs chart](output/charts/09_serial_layoffs.png)
+
+The remaining seven charts are generated locally by running Phase 2 (see
+Quickstart above) and are not committed to keep the repo lightweight.
+
+---
+
 ## AI-assisted development
 
 This project was built using **Claude Cowork** as a development partner.

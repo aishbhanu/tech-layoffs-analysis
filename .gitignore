@@ -8,6 +8,8 @@ Thumbs.db
 .vscode/
 .idea/
 output/charts/*.png
+!output/charts/06_funding_paradox.png
+!output/charts/09_serial_layoffs.png
 output/reports/*.txt
 data/cleaned/layoffs_clean.csv
 data/raw/*.csv
